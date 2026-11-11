@@ -1,0 +1,189 @@
+{
+  "criado_em": "2026-11-11T02:14:03+00:00",
+  "criterio": "Conjunto independente de confirmação elaborado com o corpus e o enunciado, sem acesso à implementação ou resultados e sem executar consultas. Dez perguntas de serviço cobrem os sete documentos; duas continuações usam referência implícita; duas perguntas pedem dados ausentes; uma aborda outro município e uma requer esclarecimento. Gold identifica as seções aceitáveis e fatos contém uma ou duas substrings literais necessárias. Casos sem evidência, fora do escopo ou vagos têm gold e fatos vazios.",
+  "casos": [
+    {
+      "id": "U01",
+      "pergunta": "O asfalto afundou porque a galeria da chuva está com defeito. A equipe pode apenas tapar o buraco ou precisa resolver algo antes?",
+      "status": "respondido",
+      "gold": [
+        "PAV.3"
+      ],
+      "fatos": [
+        "conserta a galeria antes de reparar o pavimento"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "U02",
+      "pergunta": "Um carro bateu no poste metálico de iluminação da minha rua. Qual canal recebe o pedido de reparo e o que devo informar?",
+      "status": "respondido",
+      "gold": [
+        "ILU.1"
+      ],
+      "fatos": [
+        "endereço completo da ocorrência",
+        "aplicativo Ilumina SP ou pelo telefone 0800 779 0156"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "U03",
+      "pergunta": "Separei papelão, garrafas de vidro e latinhas. Um Ecoponto recebe esses recicláveis? Vale a pena levar cada material separado?",
+      "status": "respondido",
+      "gold": [
+        "ECO.1"
+      ],
+      "fatos": [
+        "recicláveis como papelão, plástico, vidro e metal",
+        "Separar os materiais facilita a destinação adequada de cada tipo de resíduo."
+      ],
+      "anterior": null
+    },
+    {
+      "id": "U04",
+      "pergunta": "Como descubro o dia em que o Cata-Bagulho vai passar na minha rua e a hora certa de colocar os objetos para fora?",
+      "status": "respondido",
+      "gold": [
+        "CAT.1"
+      ],
+      "fatos": [
+        "digite o endereço",
+        "as próximas datas, o horário para colocar os itens e a previsão de passagem do caminhão"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "U05",
+      "pergunta": "Por que uma avenida comprida com muito trânsito é atendida por varrição mecanizada? Qual é a prioridade desse tipo de limpeza?",
+      "status": "respondido",
+      "gold": [
+        "DES.2"
+      ],
+      "fatos": [
+        "A varrição mecanizada prioriza vias longas com tráfego intenso."
+      ],
+      "anterior": null
+    },
+    {
+      "id": "U06",
+      "pergunta": "Desconfio que o rebaixamento de guia de uma garagem esteja irregular. No catálogo municipal eu peço fiscalização ou manutenção de sarjeta?",
+      "status": "respondido",
+      "gold": [
+        "CAL.3"
+      ],
+      "fatos": [
+        "serviço específico para solicitar fiscalização",
+        "O pedido de manutenção de guias, sarjetas e sarjetões tem entrada própria."
+      ],
+      "anterior": null
+    },
+    {
+      "id": "U07",
+      "pergunta": "Nunca abri um atendimento no site SP156. Por onde começo e posso escolher ficar anônimo em qualquer serviço?",
+      "status": "respondido",
+      "gold": [
+        "CAN.1"
+      ],
+      "fatos": [
+        "procure o assunto e abra a carta do serviço desejado",
+        "A possibilidade de pedir de forma anônima depende do serviço."
+      ],
+      "anterior": null
+    },
+    {
+      "id": "U08",
+      "pergunta": "Registrei uma solicitação com meu cadastro no portal. Em que área vejo meus pedidos e de que forma chegam as atualizações?",
+      "status": "respondido",
+      "gold": [
+        "CAN.2"
+      ],
+      "fatos": [
+        "Minhas solicitações",
+        "atualizações por e-mail ou SMS"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "U09",
+      "pergunta": "Não quero aguardar o caminhão da rota para descartar os materiais. Existe entrega em local fixo e consigo localizar essa alternativa na mesma busca municipal?",
+      "status": "respondido",
+      "gold": [
+        "CAT.3"
+      ],
+      "fatos": [
+        "um Ecoponto, que funciona em endereço fixo",
+        "alternar entre os itinerários dos caminhões e os Ecopontos próximos"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "U10",
+      "pergunta": "Na praça do meu bairro ainda não existe calçada para os pedestres. Há alguma opção no SP156 para sugerir que ela seja construída?",
+      "status": "respondido",
+      "gold": [
+        "CAL.2"
+      ],
+      "fatos": [
+        "sugerir a construção de calçada em área pública ou praça"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "U11",
+      "pergunta": "Depois que eu registrar esse reparo, recebo algum número para acompanhar?",
+      "status": "respondido",
+      "gold": [
+        "ILU.2"
+      ],
+      "fatos": [
+        "O registro de manutenção gera um número de protocolo para acompanhar o pedido."
+      ],
+      "anterior": "U02"
+    },
+    {
+      "id": "U12",
+      "pergunta": "Se eu deixar restos de reforma soltos, ele também recolhe ou preciso dar outro destino?",
+      "status": "respondido",
+      "gold": [
+        "CAT.2"
+      ],
+      "fatos": [
+        "Para o entulho de pequenas reformas que esteja solto, a tabela orienta a entrega no Ecoponto."
+      ],
+      "anterior": "U04"
+    },
+    {
+      "id": "U13",
+      "pergunta": "Qual é o horário de abertura e fechamento do Ecoponto Astarte aos domingos? Preciso dos horários exatos informados na base.",
+      "status": "sem_evidencia",
+      "gold": [],
+      "fatos": [],
+      "anterior": null
+    },
+    {
+      "id": "U14",
+      "pergunta": "Qual é a quantidade mínima de assinaturas exigida para pedir instalação de iluminação em uma praça que nunca teve luz?",
+      "status": "sem_evidencia",
+      "gold": [],
+      "fatos": [],
+      "anterior": null
+    },
+    {
+      "id": "U15",
+      "pergunta": "Estou em Santos e quero pedir a retirada de lixo largado na rua pelo serviço da prefeitura daqui. Qual procedimento devo seguir?",
+      "status": "fora_escopo",
+      "gold": [],
+      "fatos": [],
+      "anterior": null
+    },
+    {
+      "id": "U16",
+      "pergunta": "Preciso que a Prefeitura resolva aquilo perto daqui. Como faço?",
+      "status": "esclarecer",
+      "gold": [],
+      "fatos": [],
+      "anterior": null
+    }
+  ]
+}

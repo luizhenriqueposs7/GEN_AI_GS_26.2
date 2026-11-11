@@ -1,0 +1,160 @@
+{
+  "criado_em": "2026-11-10",
+  "criterio": "Desenvolvimento e regressão das falhas observadas na auditoria",
+  "casos": [
+    {
+      "id": "D01",
+      "pergunta": "O poste da minha rua fica aceso de dia. Quem recebe o pedido de manutenção?",
+      "status": "respondido",
+      "gold": [
+        "ILU.1"
+      ],
+      "fatos": [
+        "Ilumina SP"
+      ],
+      "anterior": null,
+      "assunto": null
+    },
+    {
+      "id": "D02",
+      "pergunta": "Minha praça nunca teve iluminação pública. Qual canal uso para pedir instalação?",
+      "status": "respondido",
+      "gold": [
+        "ILU.3"
+      ],
+      "fatos": [
+        "melhoria",
+        "SP156"
+      ],
+      "anterior": null,
+      "assunto": null
+    },
+    {
+      "id": "D03",
+      "pergunta": "A pista está com uma cratera. Preciso pagar para solicitar tapa-buraco?",
+      "status": "respondido",
+      "gold": [
+        "PAV.1"
+      ],
+      "fatos": [
+        "gratuito"
+      ],
+      "anterior": null,
+      "assunto": null
+    },
+    {
+      "id": "D04",
+      "pergunta": "A chuva atrasa o reparo de buracos no asfalto?",
+      "status": "respondido",
+      "gold": [
+        "PAV.2"
+      ],
+      "fatos": [
+        "chuva"
+      ],
+      "anterior": null,
+      "assunto": null
+    },
+    {
+      "id": "D05",
+      "pergunta": "Levo meu colchão e papelão para um Ecoponto ou esses materiais são recusados?",
+      "status": "respondido",
+      "gold": [
+        "ECO.1"
+      ],
+      "fatos": [
+        "colchões",
+        "papelão"
+      ],
+      "anterior": null,
+      "assunto": null
+    },
+    {
+      "id": "D06",
+      "pergunta": "Quero tirar um sofá de casa. Como vejo em que dia passa o Cata-Bagulho?",
+      "status": "respondido",
+      "gold": [
+        "CAT.1"
+      ],
+      "fatos": [
+        "digite o endereço"
+      ],
+      "anterior": null,
+      "assunto": null
+    },
+    {
+      "id": "D07",
+      "pergunta": "Tem restos de obra abandonados na via pública. Qual canal atende esse descarte?",
+      "status": "respondido",
+      "gold": [
+        "DES.1"
+      ],
+      "fatos": [
+        "Central 156"
+      ],
+      "anterior": null,
+      "assunto": null
+    },
+    {
+      "id": "D08",
+      "pergunta": "A calçada de um imóvel particular está quebrada. Posso denunciar pelo SP156?",
+      "status": "respondido",
+      "gold": [
+        "CAL.2"
+      ],
+      "fatos": [
+        "denúncia"
+      ],
+      "anterior": null,
+      "assunto": null
+    },
+    {
+      "id": "D09",
+      "pergunta": "Como solicito fiscalização de uma guia rebaixada irregular?",
+      "status": "respondido",
+      "gold": [
+        "CAL.3"
+      ],
+      "fatos": [
+        "fiscalização"
+      ],
+      "anterior": null,
+      "assunto": null
+    },
+    {
+      "id": "D10",
+      "pergunta": "Meu chamado no SP156 pede informações complementares. O que faço agora?",
+      "status": "respondido",
+      "gold": [
+        "CAN.3"
+      ],
+      "fatos": [
+        "informações solicitadas"
+      ],
+      "anterior": null,
+      "assunto": null
+    },
+    {
+      "id": "D11",
+      "pergunta": "Como abrir um chamado de tapa-buraco na cidade de Santos?",
+      "status": "fora_escopo",
+      "gold": [],
+      "fatos": [],
+      "anterior": null,
+      "assunto": null
+    },
+    {
+      "id": "D12",
+      "pergunta": "Como vejo o andamento?",
+      "status": "respondido",
+      "gold": [
+        "ILU.2"
+      ],
+      "fatos": [
+        "protocolo"
+      ],
+      "anterior": null,
+      "assunto": "ILU"
+    }
+  ]
+}

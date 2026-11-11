@@ -1,0 +1,255 @@
+{
+  "criado_em": "2026-11-10",
+  "criterio": "Amostra reservada redigida com base no corpus municipal e no enunciado, antes de consultar a implementação em correção. Executar após congelar as alterações e registrar uma única rodada. Para respondido, exigir o status previsto, uma fonte da lista gold e todos os fatos literais na resposta. Para os demais status, exigir o status previsto e ausência de fonte. Continuações utilizam o assunto obtido no caso indicado em anterior. A amostra reúne 12 perguntas naturais independentes, três continuações, uma troca explícita de assunto, duas perguntas sem evidência, um caso em outro município, um caso de privacidade com identificador fictício e uma pergunta ambígua. As proporções obtidas descrevem esta amostra de conveniência, cujos temas foram escolhidos a partir da base.",
+  "casos": [
+    {
+      "id": "R01",
+      "pergunta": "Nunca colocaram iluminação numa passagem pública aqui em São Paulo. Qual solicitação cabe para instalar as luminárias?",
+      "status": "respondido",
+      "gold": [
+        "ILU.3"
+      ],
+      "fatos": [
+        "melhoria ou ampliação",
+        "vistoria técnica"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "R02",
+      "pergunta": "O equipamento da iluminação da rua fica aceso mesmo com sol. Isso entra no serviço de manutenção?",
+      "status": "respondido",
+      "gold": [
+        "ILU.1"
+      ],
+      "fatos": [
+        "luminária acesa durante o dia",
+        "manutenção da iluminação pública"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "R03",
+      "pergunta": "Abri uma ocorrência identificada no SP156 e queria receber aviso quando houver mudança. Como consulto o pedido e por onde chegam as atualizações?",
+      "status": "respondido",
+      "gold": [
+        "CAN.2"
+      ],
+      "fatos": [
+        "Minhas solicitações",
+        "e-mail ou SMS"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "R04",
+      "pergunta": "Em frente a um imóvel particular há um pedaço da calçada que nem foi construído. Que tipo de pedido faço no portal?",
+      "status": "respondido",
+      "gold": [
+        "CAL.2"
+      ],
+      "fatos": [
+        "passeio particular danificado ou inexistente",
+        "registrar uma denúncia"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "R05",
+      "pergunta": "Uma barreira no meio da calçada impede a passagem de quem usa cadeira de rodas. Por qual serviço peço uma avaliação municipal?",
+      "status": "respondido",
+      "gold": [
+        "CAL.1"
+      ],
+      "fatos": [
+        "avaliação de obstáculo",
+        "Portal SP156"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "R06",
+      "pergunta": "O rebaixamento da guia de uma entrada de garagem parece irregular. Existe um pedido específico para fiscalizar essa situação?",
+      "status": "respondido",
+      "gold": [
+        "CAL.3"
+      ],
+      "fatos": [
+        "rebaixamento de guia existente",
+        "solicitar fiscalização"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "R07",
+      "pergunta": "A boca de lobo da rua acumulou areia e a água da chuva mal entra. O que o serviço de limpeza faz nesse equipamento?",
+      "status": "respondido",
+      "gold": [
+        "DES.2"
+      ],
+      "fatos": [
+        "limpeza de bueiros e bocas de lobo",
+        "areia e outros materiais"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "R08",
+      "pergunta": "Separei caixas de papelão, garrafas de vidro e latinhas para levar a um Ecoponto. Esses recicláveis são recebidos e a entrega é paga?",
+      "status": "respondido",
+      "gold": [
+        "ECO.1"
+      ],
+      "fatos": [
+        "papelão, plástico, vidro e metal",
+        "entrega voluntária e gratuita"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "R09",
+      "pergunta": "Troquei a geladeira e um colchão e preciso descartar os antigos. Esses dois itens podem ir na coleta do Cata-Bagulho?",
+      "status": "respondido",
+      "gold": [
+        "CAT.2"
+      ],
+      "fatos": [
+        "eletrodomésticos",
+        "colchões"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "R10",
+      "pergunta": "Abandonaram um sofá e sacos de restos de reforma numa rua pública. Qual serviço pode recolher esse material e como aciono a Prefeitura?",
+      "status": "respondido",
+      "gold": [
+        "DES.1"
+      ],
+      "fatos": [
+        "remoção e transporte desses resíduos",
+        "Central 156"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "R11",
+      "pergunta": "A equipe adiou o tapa-buraco da nossa via depois de uma chuva. Esse tipo de clima pode interferir na programação do reparo?",
+      "status": "respondido",
+      "gold": [
+        "PAV.2"
+      ],
+      "fatos": [
+        "Dias de chuva podem alterar a programação."
+      ],
+      "anterior": null
+    },
+    {
+      "id": "R12",
+      "pergunta": "A Comgás terminou uma obra na rua e deixou a abertura no asfalto. De quem é a obrigação de fechar e recompor o pavimento?",
+      "status": "respondido",
+      "gold": [
+        "PAV.3"
+      ],
+      "fatos": [
+        "Comgás",
+        "fechar a abertura e recompor o asfalto"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "R13",
+      "pergunta": "Antes de instalar tudo nesse local, fazem alguma avaliação técnica e quem desenvolve o projeto?",
+      "status": "respondido",
+      "gold": [
+        "ILU.3"
+      ],
+      "fatos": [
+        "SP Regula",
+        "vistoria técnica",
+        "projeto com a concessionária"
+      ],
+      "anterior": "R01"
+    },
+    {
+      "id": "R14",
+      "pergunta": "Qual é o caminho para solicitar esse conserto pelo celular, e o pedido é cobrado?",
+      "status": "respondido",
+      "gold": [
+        "PAV.1"
+      ],
+      "fatos": [
+        "aplicativo SP156",
+        "pedido é gratuito"
+      ],
+      "anterior": "R11"
+    },
+    {
+      "id": "R15",
+      "pergunta": "Como descubro a data da passagem desse caminhão para o meu endereço?",
+      "status": "respondido",
+      "gold": [
+        "CAT.1"
+      ],
+      "fatos": [
+        "São Paulo Mais Limpo",
+        "busca de itinerários",
+        "digite o endereço"
+      ],
+      "anterior": "R09"
+    },
+    {
+      "id": "R16",
+      "pergunta": "Agora mudei de assunto. No SP156, o andamento de outra solicitação está pedindo informações complementares. O que isso quer dizer e qual providência devo tomar?",
+      "status": "respondido",
+      "gold": [
+        "CAN.3"
+      ],
+      "fatos": [
+        "mais detalhes para processar o pedido",
+        "forneça as informações solicitadas"
+      ],
+      "anterior": "R15"
+    },
+    {
+      "id": "R17",
+      "pergunta": "Qual é o total de caminhões de Cata-Bagulho disponíveis hoje no bairro da Mooca?",
+      "status": "sem_evidencia",
+      "gold": [],
+      "fatos": [],
+      "anterior": null
+    },
+    {
+      "id": "R18",
+      "pergunta": "Em quantas horas a Prefeitura garante concluir um tapa-buraco após registrar a solicitação?",
+      "status": "sem_evidencia",
+      "gold": [],
+      "fatos": [],
+      "anterior": null
+    },
+    {
+      "id": "R19",
+      "pergunta": "O poste de luz da minha rua em Niterói está piscando. Qual canal municipal atende esse caso?",
+      "status": "fora_escopo",
+      "gold": [],
+      "fatos": [],
+      "anterior": null
+    },
+    {
+      "id": "R20",
+      "pergunta": "Meu e-mail fictício é morador.teste@example.invalid. Pelo portal consigo pedir conserto de uma calçada pública?",
+      "status": "privacidade",
+      "gold": [],
+      "fatos": [],
+      "anterior": null
+    },
+    {
+      "id": "R21",
+      "pergunta": "Tem como resolver isso para mim?",
+      "status": "esclarecer",
+      "gold": [],
+      "fatos": [],
+      "anterior": null
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+[
+  {
+    "id": "PAV",
+    "title": "Tapa Buraco — Subprefeitura de Sapopemba",
+    "category": "Buraco ou pavimento",
+    "url": "https://prefeitura.sp.gov.br/web/sapopemba/w/zeladoria_urbana/116576",
+    "accessed": "2026-11-07",
+    "sections": [
+      {
+        "heading": "Quando e onde pedir tapa-buraco",
+        "text": "O tapa-buraco é o reparo localizado de um buraco no asfalto que pode causar acidentes ou danificar veículos. O pedido é gratuito e pode ser registrado no aplicativo SP156, no Portal de Atendimento SP156, pela Central SP156 ou na Praça de Atendimento da Subprefeitura."
+      },
+      {
+        "heading": "Vistoria e execução do reparo",
+        "text": "A Supervisão Técnica de Manutenção da Subprefeitura recebe o pedido, vistoria o local e programa o reparo conforme a urgência. Na execução, a equipe retira o asfalto em torno do buraco, prepara a área e coloca asfalto novo. Dias de chuva podem alterar a programação."
+      },
+      {
+        "heading": "Escavação de concessionária e problema de drenagem",
+        "text": "Quando uma concessionária como Sabesp ou Comgás abre um buraco para executar sua obra, cabe a ela fechar a abertura e recompor o asfalto. A Subprefeitura encaminha o pedido à empresa. Quando o buraco resulta de um problema em galeria de águas pluviais, a Supervisão Técnica de Manutenção conserta a galeria antes de reparar o pavimento."
+      }
+    ]
+  },
+  {
+    "id": "ILU",
+    "title": "Carta de serviços de iluminação pública — SP Regula",
+    "category": "Iluminação pública",
+    "url": "https://prefeitura.sp.gov.br/web/spregula/w/iluminacao_publica/perguntas_frequentes/355960",
+    "accessed": "2026-11-07",
+    "sections": [
+      {
+        "heading": "Manutenção de lâmpada, luminária ou poste metálico",
+        "text": "Lâmpada apagada ou piscando à noite, luminária acesa durante o dia e poste metálico atingido em uma colisão são casos de manutenção da iluminação pública. Para pedir o reparo gratuito, informe o endereço completo da ocorrência pelo aplicativo Ilumina SP ou pelo telefone 0800 779 0156."
+      },
+      {
+        "heading": "Protocolo e avaliação do equipamento",
+        "text": "O registro de manutenção gera um número de protocolo para acompanhar o pedido. Uma equipe técnica vai ao endereço informado, avalia a luminária ou a rede e registra no encerramento do protocolo o resultado da avaliação e o serviço efetuado. A SP Regula informa que os postes de concreto pertencem à concessionária de energia elétrica."
+      },
+      {
+        "heading": "Melhoria ou implantação de iluminação",
+        "text": "Quando um local público nunca teve iluminação ou quando a rede existente é insuficiente, cabe solicitar melhoria ou ampliação. O pedido gratuito pode ser feito pelo SP156 ou presencialmente em uma Praça de Atendimento ou unidade do Descomplica SP. A SP Regula encaminha o endereço para vistoria técnica e, se a intervenção for necessária, desenvolve o projeto com a concessionária."
+      }
+    ]
+  },
+  {
+    "id": "ECO",
+    "title": "Conheça os Ecopontos da cidade de São Paulo",
+    "category": "Resíduos e limpeza",
+    "url": "https://prefeitura.sp.gov.br/w/conhe%C3%A7a-os-ecopontos-da-cidade-de-s%C3%A3o-paulo",
+    "accessed": "2026-11-07",
+    "sections": [
+      {
+        "heading": "Materiais aceitos nos Ecopontos",
+        "text": "Ecopontos são locais de entrega voluntária e gratuita. Recebem entulho de pequenas reformas, itens volumosos como sofás e colchões, resíduos de poda de árvores domiciliares e recicláveis como papelão, plástico, vidro e metal. Separar os materiais facilita a destinação adequada de cada tipo de resíduo."
+      },
+      {
+        "heading": "Limite de volume por descarga",
+        "text": "O limite informado pela Prefeitura para entrega de pequenos volumes é de até 1 m³ por descarga no Ecoponto. A orientação se aplica à entrega voluntária no ponto fixo. A Prefeitura recomenda separar os resíduos antes de levá-los, para facilitar o encaminhamento dos materiais."
+      },
+      {
+        "heading": "Endereços e unidades que recebem gesso",
+        "text": "A Prefeitura organiza os endereços dos Ecopontos por Subprefeitura e sinaliza as unidades que recebem gesso. Como essa aceitação varia entre unidades, consulte a indicação ao lado do endereço antes de levar o material. A unidade Astarte, na Vila Carrão, é um exemplo identificado na lista."
+      }
+    ]
+  },
+  {
+    "id": "CAT",
+    "title": "Cata-Bagulho e Ecopontos — São Paulo Mais Limpo",
+    "category": "Resíduos e limpeza",
+    "url": "https://prefeitura.sp.gov.br/sp-mais-limpo",
+    "accessed": "2026-11-07",
+    "sections": [
+      {
+        "heading": "Consulta de rota, data e horário do Cata-Bagulho",
+        "text": "O Cata-Bagulho recolhe resíduos volumosos gratuitamente com caminhões que seguem rotas programadas. Na página São Paulo Mais Limpo, selecione a busca de itinerários do Cata-Bagulho e digite o endereço. O resultado informa as próximas datas, o horário para colocar os itens e a previsão de passagem do caminhão."
+      },
+      {
+        "heading": "Materiais da coleta programada",
+        "text": "O Cata-Bagulho aceita móveis velhos, colchões, podas domiciliares, eletrodomésticos e entulho ensacado nas condições indicadas pela Prefeitura. Para o entulho de pequenas reformas que esteja solto, a tabela orienta a entrega no Ecoponto. Lixo domiciliar com resíduos orgânicos fica fora da coleta de Cata-Bagulho."
+      },
+      {
+        "heading": "Escolha entre coleta na rota e entrega voluntária",
+        "text": "O Cata-Bagulho depende da data e da rota do caminhão na região. Para levar diretamente materiais compatíveis, o morador pode recorrer a um Ecoponto, que funciona em endereço fixo. A mesma ferramenta municipal de busca permite alternar entre os itinerários dos caminhões e os Ecopontos próximos."
+      }
+    ]
+  },
+  {
+    "id": "DES",
+    "title": "Detalhamento dos serviços públicos — Coordenadoria de Limpeza Urbana",
+    "category": "Resíduos e limpeza",
+    "url": "https://prefeitura.sp.gov.br/web/secretaria_executiva_de_limpeza_urbana/w/detalhamento-dos-servi%C3%A7os-p%C3%BAblicos",
+    "accessed": "2026-11-07",
+    "sections": [
+      {
+        "heading": "Remoção de entulho descartado irregularmente em área pública",
+        "text": "Quando restos de obra, entulho ou objetos volumosos já foram abandonados em rua ou outro logradouro público, a Prefeitura oferece um serviço de remoção e transporte desses resíduos. O pedido de retirada pode ser feito pela Central 156. O Cata-Bagulho, por sua vez, é uma coleta que segue um cronograma."
+      },
+      {
+        "heading": "Limpeza de bueiros e varrição da via",
+        "text": "A limpeza de bueiros e bocas de lobo retira areia e outros materiais que obstruem a entrada de água da chuva. A varrição manual recolhe folhas, resíduos soltos e pequenos detritos de guias, sarjetas e calçadões. A varrição mecanizada prioriza vias longas com tráfego intenso."
+      }
+    ]
+  },
+  {
+    "id": "CAL",
+    "title": "Serviços do Portal 156 — Secretaria Municipal das Subprefeituras",
+    "category": "Acessibilidade",
+    "url": "https://prefeitura.sp.gov.br/web/subprefeituras/w/pracas_de_atendimento/335674",
+    "accessed": "2026-11-07",
+    "sections": [
+      {
+        "heading": "Obstáculo que dificulta a circulação na calçada",
+        "text": "Para comunicar uma barreira que prejudica a circulação de pedestres na calçada, o Portal SP156 disponibiliza um serviço específico de acessibilidade para pedir avaliação de obstáculo. O pedido pode ser iniciado pelo link da carta de serviço no catálogo da Secretaria Municipal das Subprefeituras."
+      },
+      {
+        "heading": "Calçada particular danificada e manutenção de calçada pública",
+        "text": "O Portal SP156 separa os pedidos conforme o tipo de calçada. Para passeio particular danificado ou inexistente, o catálogo orienta registrar uma denúncia. Para uma calçada pública que precisa de conserto, há um pedido de manutenção. Também existe uma opção de sugerir a construção de calçada em área pública ou praça."
+      },
+      {
+        "heading": "Fiscalização de guia rebaixada irregular",
+        "text": "Se o problema estiver em um rebaixamento de guia existente que pareça irregular, o Portal SP156 oferece um serviço específico para solicitar fiscalização. A opção aparece no catálogo das Subprefeituras na categoria de guias rebaixadas. O pedido de manutenção de guias, sarjetas e sarjetões tem entrada própria."
+      }
+    ]
+  },
+  {
+    "id": "CAN",
+    "title": "Portal SP156 — como solicitar serviços e acompanhar pedidos",
+    "category": "Geral",
+    "url": "https://prefeitura.sp.gov.br/web/pinheiros/w/portal-156",
+    "accessed": "2026-11-07",
+    "sections": [
+      {
+        "heading": "Abertura de solicitação no portal",
+        "text": "Na área de serviços do Portal SP156, procure o assunto e abra a carta do serviço desejado. A carta reúne as instruções para registrar o pedido. Quando o portal for um dos canais disponíveis, selecione a opção de solicitar e siga as etapas indicadas. A possibilidade de pedir de forma anônima depende do serviço."
+      },
+      {
+        "heading": "Acompanhamento de protocolo identificado ou anônimo",
+        "text": "Para consultar um pedido identificado, entre na sua conta do Portal SP156 e abra a área Minhas solicitações. Essa modalidade permite receber atualizações por e-mail ou SMS. Para um pedido anônimo, informe o número do protocolo em Acompanhe sua solicitação. Pedidos anônimos não geram notificações."
+      },
+      {
+        "heading": "Pedido aguardando informações complementares",
+        "text": "Quando o andamento indica que a Prefeitura está aguardando informações complementares do munícipe, a equipe precisa de mais detalhes para processar o pedido. Consulte as instruções de acompanhamento no Portal SP156 e forneça as informações solicitadas para que o atendimento possa continuar."
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "data": "2026-11-11T02:23:32.294Z",
+  "arquivos": {
+    "assistente.py": "b6efa9261320079a598d81fb2969328c72018621100a38a27f65edbdb63903ce",
+    "avaliar.py": "bdaadd6b8b3fe6647b2ed1cc566aff42a50994dcc27b64098f5b8a4ea77d8ce0",
+    "corpus.json": "0663e63dbd24c71e4e2ad4172a094a07bb9f74a0a303e8216fa753f51343b0a5",
+    "municipios.json": "80bedb4fd4c416459ff2b4ced780aeb370b0b6c676735d7ea8cc0251508e5059",
+    "requirements.txt": "198481ebfbf589f1839a526a41f38235a6c4d84465b424cac1d20f2213eed798",
+    "Executar-CitizenTech.ps1": "fd91bd43f8fd4cc7a93ccb3e50a8a9e1b3d16a05c1e4ede04855559432e617ee",
+    "test_assistente.py": "15c66eec00d0ea6bbe0c3ffce833d01aa9ae787c75ff44154c4738fe9d2103bd",
+    "avaliacao_confirmacao.json": "7ddf75f9e3a537addfbb81da269f16d48a65149f1af4b5fba17c210ed7dfc162"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "data": "2026-11-11T04:54:54.655Z",
+  "observacao": "Reaplicação após filtro de ação com identificação de resíduos; abertura de obra e negação preservadas. Histórico em resultados_antes_filtro_servico.json.",
+  "arquivos": {
+    "assistente.py": "02f96ba7ec7704f9b1a8030e4f61a099de14f211b9b8384ec5db2c58d67b51f8",
+    "avaliar.py": "d65c07b0d79d3a26f5c021e623b94f5f690dc2da86956b155736ec0223038d33",
+    "corpus.json": "0663e63dbd24c71e4e2ad4172a094a07bb9f74a0a303e8216fa753f51343b0a5",
+    "municipios.json": "80bedb4fd4c416459ff2b4ced780aeb370b0b6c676735d7ea8cc0251508e5059",
+    "requirements.txt": "198481ebfbf589f1839a526a41f38235a6c4d84465b424cac1d20f2213eed798",
+    "Executar-CitizenTech.ps1": "fd91bd43f8fd4cc7a93ccb3e50a8a9e1b3d16a05c1e4ede04855559432e617ee",
+    "test_assistente.py": "ffbb69cc6ae6fe4b88b26b23ae7536d150a6c5e140bee0b8cdeb565b5f796cec",
+    "avaliacao_confirmacao.json": "7ddf75f9e3a537addfbb81da269f16d48a65149f1af4b5fba17c210ed7dfc162"
+  }
+}

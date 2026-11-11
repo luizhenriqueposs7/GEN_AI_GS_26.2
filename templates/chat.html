@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block head %}<script src="{{ url_for('static', filename='chat.js') }}" defer></script>{% endblock %}
+{% block content %}
+  <section class="hero">
+    <div class="frame hero-inner">
+      <div>
+        <span class="eyebrow">01 / ASSISTENTE AO CIDADÃO</span>
+        <h1>Zeladoria urbana</h1>
+        <p>Encontre o serviço certo para cuidar da sua rua.</p>
+      </div>
+      <div class="grid-art" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+  </section>
+  <main class="frame workspace">
+    <section class="panel chat" aria-labelledby="chat-title">
+      <header class="panel-head">
+        <div><h2 id="chat-title">Conversa</h2><span>Orientação com base em fontes municipais</span></div>
+        <button class="quiet" id="reset" type="button">Nova conversa</button>
+      </header>
+      <div id="messages" class="messages" role="log" aria-label="Mensagens" tabindex="0">
+        <div id="welcome">
+          <p class="welcome-title">Em que podemos orientar?</p>
+          <p>Descreva o problema ou pergunte sobre um serviço.</p>
+          <div class="examples" aria-label="Sugestões de perguntas">
+            <button type="button">Como pedir reparo de uma lâmpada apagada?</button>
+            <button type="button">Posso levar gesso a qualquer Ecoponto?</button>
+            <button type="button">Como acompanhar um pedido anônimo no SP156?</button>
+          </div>
+        </div>
+      </div>
+      <form id="chat-form">
+        <label for="question">Sua pergunta</label>
+        <div class="compose">
+          <textarea id="question" rows="2" maxlength="500" required placeholder="Ex.: O poste da rua está apagado. Onde peço o reparo?"></textarea>
+          <button type="submit" id="send">Enviar <span aria-hidden="true">↗</span></button>
+        </div>
+        <small>Evite enviar CPF, telefone pessoal, e-mail ou credenciais.</small>
+      </form>
+    </section>
+    <aside class="sidebar">
+      <section class="panel side-block" aria-labelledby="triagem-title">
+        <span class="eyebrow">02 / INTEGRAÇÃO</span>
+        <h2 id="triagem-title">Triagem do relato</h2>
+        <div id="triagem" aria-live="polite"><p>A categoria e a prioridade do protótipo aparecem após uma pergunta de zeladoria.</p></div>
+      </section>
+      <section class="panel side-block">
+        <span class="eyebrow">03 / BASE DE CONHECIMENTO</span>
+        <h2>De onde vêm as respostas?</h2>
+        <p><strong>{{ fontes }} fontes oficiais</strong> e {{ trechos }} trechos sobre iluminação, pavimento, resíduos, calçadas e SP156.</p>
+        <p>Abra as evidências de uma resposta para conferir o trecho e o link de origem.</p>
+        <a class="text-link" href="/avaliacao">Ver testes e resultados →</a>
+      </section>
+      <p class="notice">Para abrir ou acompanhar um pedido, use o canal oficial do serviço.</p>
+    </aside>
+  </main>
+{% endblock %}

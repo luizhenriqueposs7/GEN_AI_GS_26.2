@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}CitizenTech · Zeladoria urbana{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <header class="top">
+    <div class="frame nav">
+      <a class="brand" href="/" aria-label="CitizenTech, início"><span class="mark" aria-hidden="true"></span>CitizenTech<span class="brand-dot">.</span></a>
+      <nav aria-label="Navegação principal">
+        <a href="/" {% if request.path == '/' %}aria-current="page"{% endif %}>Assistente</a>
+        <a href="/avaliacao" {% if request.path == '/avaliacao' %}aria-current="page"{% endif %}>Avaliação</a>
+      </nav>
+      <span class="edition">FIAP · GLOBAL SOLUTION 2026.2</span>
+    </div>
+  </header>
+  {% block content %}{% endblock %}
+  <footer class="frame footer"><span>Projeto acadêmico · Generative AI &amp; Advanced Nets</span><span>Município de São Paulo · Protótipo de orientação</span><span class="team-credit">Luiz Henrique Poss · RM562177 &nbsp;|&nbsp; Luis Filipe Chaves Amorim · RM564706 &nbsp;|&nbsp; Felipe Stefani Honorato · RM563380</span></footer>
+</body>
+</html>

@@ -1,0 +1,243 @@
+{
+  "criado_em": "2026-11-11T02:01:31+00:00",
+  "criterio": "Amostra independente elaborada somente a partir do corpus e do enunciado da GS, sem executar consultas nem acessar implementação ou avaliações. Doze perguntas naturais cobrem os sete documentos; três continuações retomam serviços implicitamente; uma cadeia muda de assunto explicitamente; duas perguntas exigem dados ausentes; há um município fora da capital e uma formulação ambígua. Gold indica seções aceitáveis e fatos trazem substrings literais obrigatórias. Casos de abstenção ou esclarecimento têm gold e fatos vazios porque não há evidência que permita a resposta pedida.",
+  "casos": [
+    {
+      "id": "T01",
+      "pergunta": "Passei de bicicleta por uma cratera pequena no asfalto em Sapopemba. Como comunico isso e existe alguma cobrança para arrumar?",
+      "status": "respondido",
+      "gold": [
+        "PAV.1"
+      ],
+      "fatos": [
+        "O pedido é gratuito",
+        "aplicativo SP156"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "T02",
+      "pergunta": "A empresa de gás abriu a rua para uma obra e deixou o asfalto aberto. A responsabilidade de fechar é de quem?",
+      "status": "respondido",
+      "gold": [
+        "PAV.3"
+      ],
+      "fatos": [
+        "cabe a ela fechar a abertura e recompor o asfalto",
+        "A Subprefeitura encaminha o pedido à empresa."
+      ],
+      "anterior": null
+    },
+    {
+      "id": "T03",
+      "pergunta": "A luz da rua continua ligada mesmo com sol forte. Para onde aviso e quais informações preciso passar?",
+      "status": "respondido",
+      "gold": [
+        "ILU.1"
+      ],
+      "fatos": [
+        "endereço completo da ocorrência",
+        "aplicativo Ilumina SP ou pelo telefone 0800 779 0156"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "T04",
+      "pergunta": "Uma passagem pública do bairro nunca recebeu iluminação. Devo pedir troca de lâmpada ou existe outro tipo de solicitação?",
+      "status": "respondido",
+      "gold": [
+        "ILU.3"
+      ],
+      "fatos": [
+        "solicitar melhoria ou ampliação",
+        "SP156"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "T05",
+      "pergunta": "Tenho um sofá estragado e galhos da poda do meu quintal. Posso levar os dois a um Ecoponto e preciso pagar?",
+      "status": "respondido",
+      "gold": [
+        "ECO.1"
+      ],
+      "fatos": [
+        "entrega voluntária e gratuita",
+        "resíduos de poda de árvores domiciliares"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "T06",
+      "pergunta": "Sobrou gesso da reforma. Qualquer unidade de entrega da Prefeitura aceita esse material ou tenho que conferir alguma coisa?",
+      "status": "respondido",
+      "gold": [
+        "ECO.3"
+      ],
+      "fatos": [
+        "essa aceitação varia entre unidades",
+        "consulte a indicação ao lado do endereço antes de levar o material"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "T07",
+      "pergunta": "Quero aproveitar o Cata-Bagulho para tirar uma lavadora velha e sacos com restos de comida. Esse caminhão pode levar tudo isso?",
+      "status": "respondido",
+      "gold": [
+        "CAT.2"
+      ],
+      "fatos": [
+        "eletrodomésticos",
+        "Lixo domiciliar com resíduos orgânicos fica fora da coleta de Cata-Bagulho."
+      ],
+      "anterior": null
+    },
+    {
+      "id": "T08",
+      "pergunta": "Jogaram restos de construção na esquina e eles já estão ocupando a rua. Como peço a retirada sem esperar uma rota de coleta de móveis?",
+      "status": "respondido",
+      "gold": [
+        "DES.1"
+      ],
+      "fatos": [
+        "serviço de remoção e transporte desses resíduos",
+        "Central 156"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "T09",
+      "pergunta": "Perto de casa há folhas na sarjeta e areia tampando a boca de lobo. A varrição e a limpeza do bueiro fazem o mesmo trabalho?",
+      "status": "respondido",
+      "gold": [
+        "DES.2"
+      ],
+      "fatos": [
+        "retira areia e outros materiais que obstruem a entrada de água da chuva",
+        "A varrição manual recolhe folhas, resíduos soltos e pequenos detritos"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "T10",
+      "pergunta": "Há uma barreira no passeio e minha mãe não consegue passar com o andador. Onde encontro a opção para pedir que avaliem esse impedimento?",
+      "status": "respondido",
+      "gold": [
+        "CAL.1"
+      ],
+      "fatos": [
+        "serviço específico de acessibilidade para pedir avaliação de obstáculo",
+        "catálogo da Secretaria Municipal das Subprefeituras"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "T11",
+      "pergunta": "A calçada diante de um imóvel particular está toda quebrada; em outra rua, o trecho danificado é público. Registro o mesmo pedido para os dois?",
+      "status": "respondido",
+      "gold": [
+        "CAL.2"
+      ],
+      "fatos": [
+        "o catálogo orienta registrar uma denúncia",
+        "há um pedido de manutenção"
+      ],
+      "anterior": null
+    },
+    {
+      "id": "T12",
+      "pergunta": "Fiz um pedido anônimo pelo SP156. Como vejo o andamento e vou receber mensagem quando houver atualização?",
+      "status": "respondido",
+      "gold": [
+        "CAN.2"
+      ],
+      "fatos": [
+        "número do protocolo em Acompanhe sua solicitação",
+        "Pedidos anônimos não geram notificações."
+      ],
+      "anterior": null
+    },
+    {
+      "id": "T13",
+      "pergunta": "Quem vai examinar o local antes do conserto? A chuva pode atrasar esse trabalho?",
+      "status": "respondido",
+      "gold": [
+        "PAV.2"
+      ],
+      "fatos": [
+        "Supervisão Técnica de Manutenção",
+        "Dias de chuva podem alterar a programação."
+      ],
+      "anterior": "T01"
+    },
+    {
+      "id": "T14",
+      "pergunta": "Qual o maior volume que posso descarregar de uma vez nesse lugar?",
+      "status": "respondido",
+      "gold": [
+        "ECO.2"
+      ],
+      "fatos": [
+        "até 1 m³ por descarga no Ecoponto"
+      ],
+      "anterior": "T05"
+    },
+    {
+      "id": "T15",
+      "pergunta": "O andamento mudou para aguardando informações complementares. O que preciso fazer para o atendimento continuar?",
+      "status": "respondido",
+      "gold": [
+        "CAN.3"
+      ],
+      "fatos": [
+        "forneça as informações solicitadas para que o atendimento possa continuar"
+      ],
+      "anterior": "T12"
+    },
+    {
+      "id": "T16",
+      "pergunta": "Agora quero mudar de assunto para iluminação pública: no encerramento de um protocolo de manutenção, onde ficam o diagnóstico e o serviço executado?",
+      "status": "respondido",
+      "gold": [
+        "ILU.2"
+      ],
+      "fatos": [
+        "registra no encerramento do protocolo o resultado da avaliação e o serviço efetuado"
+      ],
+      "anterior": "T15"
+    },
+    {
+      "id": "T17",
+      "pergunta": "Quantos dias corridos, no máximo, a Prefeitura promete para concluir um tapa-buraco depois do registro? Preciso do prazo exato previsto na base.",
+      "status": "sem_evidencia",
+      "gold": [],
+      "fatos": [],
+      "anterior": null
+    },
+    {
+      "id": "T18",
+      "pergunta": "Qual é o endereço completo, com número e CEP, do Ecoponto Astarte? Quero os dados exatos para colocar no navegador.",
+      "status": "sem_evidencia",
+      "gold": [],
+      "fatos": [],
+      "anterior": null
+    },
+    {
+      "id": "T19",
+      "pergunta": "Moro em Campinas e há um buraco na minha rua. Posso solicitar esse reparo pelo SP156 da capital?",
+      "status": "fora_escopo",
+      "gold": [],
+      "fatos": [],
+      "anterior": null
+    },
+    {
+      "id": "T20",
+      "pergunta": "Tem um problema bem em frente à minha casa. Você pode dizer qual serviço devo abrir?",
+      "status": "esclarecer",
+      "gold": [],
+      "fatos": [],
+      "anterior": null
+    }
+  ]
+}
