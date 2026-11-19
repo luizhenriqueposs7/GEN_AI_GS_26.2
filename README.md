@@ -124,4 +124,4 @@ Por preferência da equipe, a entrega mantém o vídeo anterior com a narração
 
 A gravação apresenta a configuração e as métricas da versão anterior do protótipo. O código e o relatório deste pacote permanecem corrigidos, com os resultados atuais e as correções de retirada de resíduos e varrição. Essa diferença está identificada também no relatório.
 
-O áudio já está incluído. `Roteiro_CitizenTech_Ao_Vivo.md` contém um guia das cenas do vídeo mantido.
+O áudio já está incluído.
